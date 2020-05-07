@@ -1,5 +1,5 @@
-const { Cat } = require("../src/Cat_Extends_Animal.js");
-const { Dog } = require("../src/Dog_Extends_Animal.js");
+const { Cat } = require("../animal-oop/Cat_Extends_Animal.js");
+const { Dog } = require("../animal-oop/Dog_Extends_Animal.js");
 
 class Home {
   constructor() {
