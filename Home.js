@@ -1,5 +1,5 @@
-const { Cat } = require("../animal-oop/Cat_Extends_Animal.js");
-const { Dog } = require("../animal-oop/Dog_Extends_Animal.js");
+const { Cat } = require("./Cat_Extends_Animal.js");
+const { Dog } = require("./Dog_Extends_Animal.js");
 
 class Home {
   constructor() {
@@ -42,7 +42,7 @@ var cat2 = new Cat("Katana");
 home.adoptPet(cat1);
 home.adoptPet(dog1);
 home.adoptPet(dog2);
-home.adoptPet(cat1);
+home.adoptPet(cat2);
 home.makeAllSounds();
 
 dog1.eat();

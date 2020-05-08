@@ -1,4 +1,4 @@
-const { Animal } = require("../animal-oop/Animal.js");
+const { Animal } = require("./Animal.js");
 class Cat extends Animal {
   constructor(name) {
     super(name);
